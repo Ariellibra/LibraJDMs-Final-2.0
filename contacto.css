@@ -47,7 +47,7 @@ header {
 
 /* Imagen de fondo */
 body {
-    background-image: url("/LibraJDM\'s/Imagenes/fondo.webp");
+    background-image: url("fondo.webp");
     font-family: "Jaro", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
