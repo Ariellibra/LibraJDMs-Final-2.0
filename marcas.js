@@ -1,25 +1,30 @@
 let imagenes = [
   {
-      "url": "toyota-logo-1.png",
+      "url": "toyota-logo-2.png",
       "nombre": "Proyecto 01",
       "descripcion": "Este es el proyecto 01 fue desarrollado para un video de youtube. Si te gusta el contenido dale like y suscribete"
 
   },
   {
-      "url": "nissan-logo-3.png",
+      "url": "nissan-logo-4.jpg",
       "nombre": "Proyecto 02",
       "descripcion": "Hola a todos este es el proyecto02 y fue desarrollado para un video de youtube. Si te gusta el contenido dale like y suscribete"
 
   },
   {
-      "url": "mitsubishi-logo-2.png",
+      "url": "mitsubishi-logo-3.jpg",
       "nombre": "Proyecto 03",
       "descripcion": "Este proyecto, es el 03 y fue desarrollado para un video de youtube. Si te gusta el contenido dale like y suscribete"
 
   },
   {
-    "url": "subaru-logo-1.png",
+    "url": "subaru-logo-2.jpg",
     "nombre": "Proyecto 04",
+    "descripcion": "Este proyecto, es el 03 y fue desarrollado para un video de youtube. Si te gusta el contenido dale like y suscribete"
+  },
+  {
+    "url": "mazda-logo-1.png",
+    "nombre": "Proyecto 05",
     "descripcion": "Este proyecto, es el 03 y fue desarrollado para un video de youtube. Si te gusta el contenido dale like y suscribete"
   },
 ]
