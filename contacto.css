@@ -1,20 +1,20 @@
 /* Grid Box */
 .container {  display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "Contacto"
-      "Mapa";
-  }
-  
-  .Contacto {  display: grid;
-    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
     gap: 0px 0px;
     grid-auto-flow: row;
     grid-template-areas:
+      "Contacto";
+  }
+  
+  .Contacto {  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Informacion Formulario"
       "Informacion Formulario";
     grid-area: Contacto;
   }
@@ -23,7 +23,9 @@
   
   .Formulario { grid-area: Formulario; }
   
-  .Mapa { grid-area: Mapa; }
+  
+  
+  
   
 /* Estilos */
 
@@ -93,7 +95,7 @@ nav ul li a:hover {
 /* Estilo de la sección principal */
 main {
     text-align: center;
-    padding: 50px;
+    padding: 35px;
 }
 
 /* Estilos para el diseño de la página */
