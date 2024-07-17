@@ -1,39 +1,135 @@
 /* Area GridBox */
 
 .container {  display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "Catalogo"
-      "Catalogo";
-  }
-  
-  .Catalogo {  display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "Auto1 Auto1"
-      "Auto2 Auto2"
-      "Auto3 Auto3"
-      "Auto4 Auto4"
-      "Auto5 Auto5";
-    grid-area: Catalogo;
-  }
-  
-  .Auto1 { grid-area: Auto1; }
-  
-  .Auto2 { grid-area: Auto2; }
-  
-  .Auto3 { grid-area: Auto3; }
-  
-  .Auto4 { grid-area: Auto4; }
-  
-  .Auto5 { grid-area: Auto5; }
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "Catalogo"
+    "Catalogo";
+}
+
+.Catalogo {  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "Auto1"
+    "Auto2"
+    "Auto3"
+    "Auto4"
+    "Auto5";
+  grid-area: Catalogo;
+}
+
+.Auto1 {  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". .";
+  grid-area: Auto1;
+}
+
+.Auto2 {  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". .";
+  grid-area: Auto2;
+}
+
+.Auto3 {  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". .";
+  grid-area: Auto3;
+}
+
+.Auto4 {  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". .";
+  grid-area: Auto4;
+}
+
+.Auto5 {  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". .";
+  grid-area: Auto5;
+}
+
   
 
 /* Estilos */
 
+main {
+  text-align: center;
+}
+
+.Catalogo img{
+  width: 500px;
+  height: 333px;
+}
+
+.Catalogo{
+  text-shadow: 0px 0px 15px #FF5733;
+  justify-content: space-between;
+  margin: 50px auto;
+  max-width: auto;
+  padding: 0 20px;
+}
+
+.dolar{
+  color: green;
+}
+
+.Auto1{
+  flex-basis: calc(50% - 20px);
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.Auto2{
+  flex-basis: calc(50% - 20px);
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.Auto3{
+  flex-basis: calc(50% - 20px);
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.Auto4{
+  flex-basis: calc(50% - 20px);
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.Auto5{
+  flex-basis: calc(50% - 20px);
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+}

@@ -40,7 +40,7 @@ main {
 
 .separador {
     background-image: url("bandera.png");
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: 100%;
     padding: 30px;
 }
