@@ -82,6 +82,18 @@ main {
   text-align: center;
 }
 
+h1{
+  font-size: 45px;
+}
+
+h2{
+  font-size: 30px;
+}
+
+article{
+  font-size: 20px;
+}
+
 .Catalogo img{
   width: 500px;
   height: 333px;
