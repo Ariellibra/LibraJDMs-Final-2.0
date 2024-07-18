@@ -145,3 +145,43 @@ article{
   border: 1px solid #ccc;
   padding: 20px;
 }
+
+@media only screen and (max-width: 600px) {
+  nav {
+    display: block;
+  }
+  nav a {
+    display: block;
+    margin-bottom: 10px;
+  }
+  main{
+      padding: 25px;
+  }
+  .Titulo{
+      padding: 25px;
+  }
+  .Catalogo img{
+    width: 150px;
+    height: 100px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  nav {
+    display: block;
+  }
+  nav a {
+    display: block;
+    margin-bottom: 10px;
+  }
+  main{
+      padding: 25px;
+  }
+  .Titulo{
+      padding: 25px;
+  }
+  .Catalogo img{
+    width: 150px;
+    height: 100px;
+  }
+}

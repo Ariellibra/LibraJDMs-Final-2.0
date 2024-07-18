@@ -143,3 +143,35 @@ main {
   .social-nav a:hover {
     color: #FF5733; /* Cambia el color al pasar el ratón sobre los iconos */
   }
+
+  @media only screen and (max-width: 600px) {
+    nav {
+      display: block;
+    }
+    nav a {
+      display: block;
+      margin-bottom: 10px;
+    }
+    main{
+        padding: 25px;
+    }
+    .Titulo{
+        padding: 25px;
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    nav {
+      display: block;
+    }
+    nav a {
+      display: block;
+      margin-bottom: 10px;
+    }
+    main{
+        padding: 25px;
+    }
+    .Titulo{
+        padding: 25px;
+    }
+  }
